@@ -461,20 +461,5 @@ export RAY_ADDRESS="auto"
 
 ---
 
-## Next Steps
 
-After setup:
 
-1. **Prepare your data**: See [Data Format](#dataset-format)
-2. **Run smoke test**: `./run_tests.sh`
-3. **Start training**: See [README.md Quick Example](README.md#quick-example)
-4. **Monitor progress**: Check WandB dashboard (if enabled)
-
----
-
-## Getting Help
-
-- **Documentation**: [README.md](README.md)
-- **Issues**: [GitHub Issues](https://github.com/your-org/TeamTR/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-org/TeamTR/discussions)
-- **Email**: your-email@example.com
