@@ -7,11 +7,11 @@ TeamTR is a framework for fine-tuning multi-agent large language model teams usi
 
 ## Key Features
 
-- 🎯 **Token-Decomposed Trust Regions**: Per-agent KL constraints computed at token level
-- 📊 **Intermediate-Occupancy Evaluation**: Reduces compounding occupancy shift from O(n²√δ) to O(n√δ)
-- 🔄 **Stage-Wise Sequential Updates**: Block-coordinate optimization with certified improvement bounds
-- 🤝 **Multi-Agent Infrastructure**: Heterogeneous teams with per-agent models, routers, and checkpointing
-- ⚡ **Distributed Training**: Built on Ray and FSDP for scalable multi-GPU training
+-  **Token-Decomposed Trust Regions**: Per-agent KL constraints computed at token level
+-  **Intermediate-Occupancy Evaluation**: Reduces compounding occupancy shift from O(n²√δ) to O(n√δ)
+- **Stage-Wise Sequential Updates**: Block-coordinate optimization with certified improvement bounds
+- **Multi-Agent Infrastructure**: Heterogeneous teams with per-agent models, routers, and checkpointing
+- **Distributed Training**: Built on Ray and FSDP for scalable multi-GPU training
 
 ---
 
@@ -543,10 +543,4 @@ TeamTR is built on top of [VERL](https://github.com/volcengine/verl) (Volcano En
 
 ---
 
-## Contact & Support
 
-- **GitHub**: [https://github.com/Yydc/TeamTR](https://github.com/Yydc/TeamTR)
-- **Issues**: [GitHub Issues](https://github.com/Yydc/TeamTR/issues)
-- **Author**: Yi Xie
-
-For questions or collaboration, please open an issue on GitHub.
