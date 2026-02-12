@@ -1,0 +1,15 @@
+defaults:
+  - teamtr_base_full
+  - _self_
+
+trainer:
+  experiment_name: teamtr_hetero_full
+
+actor_rollout_ref:
+  model:
+    path: ./models/Qwen__Qwen3-8B
+  rollout:
+    agent_model_paths:
+      - ./models/Qwen__Qwen3-1.7B
+      - ./models/Qwen__Qwen3-8B
+      - ./models/Qwen__Qwen3-14B

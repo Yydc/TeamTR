@@ -1,0 +1,6 @@
+profile: 1p7b_8b_14b
+models:
+  - ./models/Qwen__Qwen3-1.7B
+  - ./models/Qwen__Qwen3-8B
+  - ./models/Qwen__Qwen3-14B
+router: round_robin

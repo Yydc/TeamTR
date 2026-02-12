@@ -1,0 +1,6 @@
+profile: 3x8b
+models:
+  - ./models/Qwen__Qwen3-8B
+  - ./models/Qwen__Qwen3-8B
+  - ./models/Qwen__Qwen3-8B
+router: round_robin

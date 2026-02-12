@@ -1,0 +1,23 @@
+defaults:
+  - teamtr_homo_full
+  - _self_
+
+trainer:
+  experiment_name: teamtr_quick_test
+  n_gpus_per_node: 2
+  total_epochs: 1
+  total_training_steps: 10
+  test_freq: 10
+  save_freq: 5
+
+data:
+  max_prompt_length: 256
+  max_response_length: 256
+  truncation: right
+
+actor_rollout_ref:
+  rollout:
+    n: 1
+    max_model_len: 1024
+  actor:
+    use_kl_loss: false

@@ -1,0 +1,6 @@
+profile: 3x1p7b_smoke
+models:
+  - ./models/Qwen__Qwen3-1.7B
+  - ./models/Qwen__Qwen3-1.7B
+  - ./models/Qwen__Qwen3-1.7B
+router: round_robin
